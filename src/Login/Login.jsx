@@ -74,7 +74,7 @@ const Login = () => {
                 await updateProfile(user , {
                     displayName: newEntry.email,
                 });
-                navigate('/auth_login');
+                navigate('/home');
                 setSubmitButtonDisabled(false);
             }).catch((err) => {  
                 setSubmitButtonDisabled(false);
