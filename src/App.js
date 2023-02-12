@@ -20,12 +20,9 @@ const App = () => {
   return (
       <Router>
         <div className="App">
-          <Routes>
-            <Route path='/login' element={<Login />}></Route>
-          </Routes>
           <div className='gradient__bg'>
             <Routes>
-              <Route path='/' element={<Navbar name={userlogged} />}></Route>
+              <Route path='https://anikesh-developer.github.io/auth_login/' element={<Navbar name={userlogged} />}></Route>
             </Routes>
             <Routes>
               <Route path='/' element={<Header />}></Route>
@@ -33,6 +30,9 @@ const App = () => {
             {/* <Navbar />
             <Header /> */}
           </div>
+          <Routes>
+            <Route path='/login' element={<Login />}></Route>
+          </Routes>
           <Routes>
             <Route path='/' element={<Brand />}></Route>
           </Routes>
