@@ -22,37 +22,37 @@ const App = () => {
         <div className="App">
           <div className='gradient__bg'>
             <Routes>
-              <Route path='/auth_login' element={<Navbar name={userlogged} />}></Route>
+              <Route path='https://anikesh-developer.github.io/auth_login/' element={<Navbar name={userlogged} />}></Route>
             </Routes>
             <Routes>
-              <Route path='/auth_login' element={<Header />}></Route>
+              <Route path='https://anikesh-developer.github.io/auth_login/' element={<Header />}></Route>
             </Routes>
             {/* <Navbar />
             <Header /> */}
           </div>
           <Routes>
-            <Route path='/login' element={<Login />}></Route>
+            <Route path='https://anikesh-developer.github.io/auth_login/' element={<Login />}></Route>
           </Routes>
           <Routes>
-            <Route path='/auth_login' element={<Brand />}></Route>
+            <Route path='https://anikesh-developer.github.io/auth_login/' element={<Brand />}></Route>
           </Routes>
           <Routes>
-            <Route path='/auth_login' element={<WhatGPT3 />}></Route>
+            <Route path='/https://anikesh-developer.github.io/auth_login/' element={<WhatGPT3 />}></Route>
           </Routes>
           <Routes>
-            <Route path='/auth_login' element={<Features />}></Route>
+            <Route path='https://anikesh-developer.github.io/auth_login/' element={<Features />}></Route>
           </Routes>
           <Routes>
-            <Route path='/auth_login' element={<Possibility />}></Route>
+            <Route path='https://anikesh-developer.github.io/auth_login/' element={<Possibility />}></Route>
           </Routes>
           <Routes>
-            <Route path='/auth_login' element={<CTA />}></Route>
+            <Route path='https://anikesh-developer.github.io/auth_login/' element={<CTA />}></Route>
           </Routes>
           <Routes>
-            <Route path='/auth_login' element={<Blog />}></Route>
+            <Route path='https://anikesh-developer.github.io/auth_login/' element={<Blog />}></Route>
           </Routes>
           <Routes>
-            <Route path='/auth_login' element={<Footer />}></Route>
+            <Route path='https://anikesh-developer.github.io/auth_login/' element={<Footer />}></Route>
           </Routes>
           {/* <Brand />
           <WhatGPT3 />
