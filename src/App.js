@@ -26,34 +26,34 @@ const App = () => {
           </Routes>
           <div className='gradient__bg'>
             <Routes>
-              <Route path='/' element={<Navbar name={userlogged} />}></Route>
+              <Route path='https://Anikesh-developer.github.io/auth_login' element={<Navbar name={userlogged} />}></Route>
             </Routes>
             <Routes>
-              <Route path='/' element={<Header />}></Route>
+              <Route path='https://Anikesh-developer.github.io/auth_login' element={<Header />}></Route>
             </Routes>
             <Navbar />
             <Header />
           </div>
           <Routes>
-            <Route path='/' element={<Brand />}></Route>
+            <Route path='https://Anikesh-developer.github.io/auth_login' element={<Brand />}></Route>
           </Routes>
           <Routes>
-            <Route path='/' element={<WhatGPT3 />}></Route>
+            <Route path='https://Anikesh-developer.github.io/auth_login' element={<WhatGPT3 />}></Route>
           </Routes>
           <Routes>
-            <Route path='/' element={<Features />}></Route>
+            <Route path='https://Anikesh-developer.github.io/auth_login' element={<Features />}></Route>
           </Routes>
           <Routes>
-            <Route path='/' element={<Possibility />}></Route>
+            <Route path='https://Anikesh-developer.github.io/auth_login' element={<Possibility />}></Route>
           </Routes>
           <Routes>
-            <Route path='/' element={<CTA />}></Route>
+            <Route path='https://Anikesh-developer.github.io/auth_login' element={<CTA />}></Route>
           </Routes>
           <Routes>
-            <Route path='/' element={<Blog />}></Route>
+            <Route path='https://Anikesh-developer.github.io/auth_login' element={<Blog />}></Route>
           </Routes>
           <Routes>
-            <Route path='/' element={<Footer />}></Route>
+            <Route path='https://Anikesh-developer.github.io/auth_login' element={<Footer />}></Route>
           </Routes>
           <Brand />
           <WhatGPT3 />
