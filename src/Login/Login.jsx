@@ -74,7 +74,7 @@ const Login = () => {
                 await updateProfile(user , {
                     displayName: newEntry.email,
                 });
-                navigate('https://anikesh-developer.github.io/auth_login/');
+                navigate('/auth_login/');
                 setSubmitButtonDisabled(false);
             }).catch((err) => {  
                 setSubmitButtonDisabled(false);

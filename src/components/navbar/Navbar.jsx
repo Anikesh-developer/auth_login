@@ -57,7 +57,9 @@ const Navbar = (props) => {
                 <Link to='/login'>
                   <p>{ props.name ? `${props.name}` : <button>Sign In</button>}</p>
                 </Link>
-                <button onClick={logout} >LogOut</button>
+                <Link to="/login">
+                  <button onClick={logout} >LogOut</button>
+                </Link>
               </div>
             </div>
           </div>
