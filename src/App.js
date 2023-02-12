@@ -30,8 +30,8 @@ const App = () => {
             <Routes>
               <Route path='https://Anikesh-developer.github.io/auth_login' element={<Header />}></Route>
             </Routes>
-            <Navbar />
-            <Header />
+            {/* <Navbar />
+            <Header /> */}
           </div>
           <Routes>
             <Route path='https://Anikesh-developer.github.io/auth_login' element={<Brand />}></Route>
@@ -54,13 +54,13 @@ const App = () => {
           <Routes>
             <Route path='https://Anikesh-developer.github.io/auth_login' element={<Footer />}></Route>
           </Routes>
-          <Brand />
+          {/* <Brand />
           <WhatGPT3 />
           <Features />
           <Possibility />
           <CTA />
           <Blog />
-          <Footer />
+          <Footer /> */}
         </div>
       </Router>
   )
