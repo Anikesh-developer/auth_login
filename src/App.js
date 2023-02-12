@@ -31,7 +31,7 @@ const App = () => {
             <Header /> */}
           </div>
           <Routes>
-            <Route path='https://anikesh-developer.github.io/auth_login/' element={<Login />}></Route>
+            <Route path='/login' element={<Login />}></Route>
           </Routes>
           <Routes>
             <Route path='https://anikesh-developer.github.io/auth_login/' element={<Brand />}></Route>
