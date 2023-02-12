@@ -31,8 +31,8 @@ const App = () => {
             <Routes>
               <Route path='/' element={<Header />}></Route>
             </Routes>
-            {/* <Navbar /> */}
-            {/* <Header /> */}
+            <Navbar />
+            <Header />
           </div>
           <Routes>
             <Route path='/' element={<Brand />}></Route>
@@ -55,13 +55,13 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Footer />}></Route>
           </Routes>
-          {/* <Brand />
+          <Brand />
           <WhatGPT3 />
           <Features />
           <Possibility />
           <CTA />
           <Blog />
-          <Footer /> */}
+          <Footer />
         </div>
       </Router>
     </BrowserRouter>
