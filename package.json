@@ -1,7 +1,7 @@
 {
   "name": "gpt-3",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://Anikesh-developer.github.io/auth_login",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

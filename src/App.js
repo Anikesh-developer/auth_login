@@ -18,7 +18,6 @@ const App = () => {
   } , [] )
 
   return (
-    <BrowserRouter>
       <Router>
         <div className="App">
           <Routes>
@@ -26,7 +25,7 @@ const App = () => {
           </Routes>
           <div className='gradient__bg'>
             <Routes>
-              <Route path='https://Anikesh-developer.github.io/auth_login' element={<Navbar name={userlogged} />}></Route>
+              <Route path='https://anikesh-developer.github.io/auth_login/' element={<Navbar name={userlogged} />}></Route>
             </Routes>
             <Routes>
               <Route path='https://Anikesh-developer.github.io/auth_login' element={<Header />}></Route>
@@ -64,7 +63,6 @@ const App = () => {
           <Footer />
         </div>
       </Router>
-    </BrowserRouter>
   )
 }
 
