@@ -22,7 +22,7 @@ const App = () => {
         <div className="App">
           <div className='gradient__bg'>
             <Routes>
-              <Route path='https://anikesh-developer.github.io/auth_login/' element={<Navbar name={userlogged} />}></Route>
+              <Route path='https://anikesh-developer.github.io/' element={<Navbar name={userlogged} />}></Route>
             </Routes>
             <Routes>
               <Route path='/' element={<Header />}></Route>
