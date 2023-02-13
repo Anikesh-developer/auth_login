@@ -27,8 +27,8 @@ const App = () => {
             <Routes>
               <Route path='https://anikesh-developer.github.io/auth_login/' element={<Header />}></Route>
             </Routes>
-            {/* <Navbar />
-            <Header /> */}
+            <Navbar />
+            <Header />
           </div>
           <Routes>
             <Route path='/login' element={<Login />}></Route>
