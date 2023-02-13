@@ -49,7 +49,7 @@ const Login = () => {
     }
 
     const signin = (e) => {
-        // e.preventDefault();
+        e.preventDefault();
         const newEntry = {email: email , password:password}
         if ( !newEntry.email | !newEntry.password ){
             console.log(newEntry.email);
