@@ -54,13 +54,13 @@ const App = () => {
           <Routes>
             <Route path='https://anikesh-developer.github.io/auth_login/' element={<Footer />}></Route>
           </Routes>
-          {/* <Brand />
+          <Brand />
           <WhatGPT3 />
           <Features />
           <Possibility />
           <CTA />
           <Blog />
-          <Footer /> */}
+          <Footer />
         </div>
       </Router>
   )
