@@ -39,7 +39,7 @@ const Navbar = (props) => {
           {/* <p>Sign In</p> */}
           <p>{ props.name ? `${props.name}`: <button>Sign In</button>}</p>
         </Link>
-        <Link to='/login'>
+        <Link to='https://anikesh-developer.github.io/auth_login/'>
           <button onClick={logout}>LogOut</button>
         </Link>
         </div>
@@ -57,7 +57,7 @@ const Navbar = (props) => {
                 <Link to='/login'>
                   <p>{ props.name ? `${props.name}` : <button>Sign In</button>}</p>
                 </Link>
-                <Link to="/login">
+                <Link to="https://anikesh-developer.github.io/auth_login/">
                   <button onClick={logout} >LogOut</button>
                 </Link>
               </div>
