@@ -32,7 +32,7 @@
 .gpt3__Navbar-menu_container p {
     color: white;
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: bold;
     font-size: 17px;
     line-height: 25px;
     text-decoration: capitalize;

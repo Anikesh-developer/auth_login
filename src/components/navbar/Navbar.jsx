@@ -17,7 +17,6 @@ const Menu = () => (
 )
 
 const Navbar = (props) => {
-
   const logout = (e) => {
     signOut(auth);
   }
@@ -35,12 +34,12 @@ const Navbar = (props) => {
       </div>
 
         <div className='gpt3__Navbar-sign'>
-        <Link to="/login"> 
+        <Link to="/login">
           {/* <p>Sign In</p> */}
-          <p>{ props.name ? `${props.name}`: <button>Sign In</button>}</p>
+          <p>{ props.name ? `${props.name}`: <p>Sign In</p>}</p>
         </Link>
         <Link to='https://anikesh-developer.github.io/auth_login/'>
-          <button onClick={logout}>LogOut</button>
+        <p>{props.name ? <button onClick={logout}>LogOut</button> : <p></p>}</p>
         </Link>
         </div>
       
@@ -55,10 +54,10 @@ const Navbar = (props) => {
               <Menu />
               <div className='gpt3__Navbar-menu_container-links-sign'>
                 <Link to='/login'>
-                  <p>{ props.name ? `${props.name}` : <button>Sign In</button>}</p>
+                  <p>{ props.name ? `${props.name}` : <p>Sign In</p>}</p>
                 </Link>
                 <Link to="https://anikesh-developer.github.io/auth_login/">
-                  <button onClick={logout} >LogOut</button>
+                <p>{props.name ? <button onClick={logout}>LogOut</button> : <p></p>}</p>
                 </Link>
               </div>
             </div>
